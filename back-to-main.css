@@ -1,0 +1,29 @@
+.back-to-main {
+    width: 5rem;
+    height: 5rem;
+    position: fixed;
+    z-index: 100;
+    background-color: #EB5F84!important;
+    box-shadow: 0 0 15px 2px #EB5F84!important;
+    border-radius: 15%;
+    border: 0 none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+    bottom: auto;
+    right: auto;
+    left: 1%;
+    transition: 0.3s!important;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.back-to-main:hover {
+    transform: scale(1.05);
+}
+
+.hide {
+    opacity: 1;
+}
